@@ -1,16 +1,10 @@
-import React from 'react'
+import React from 'react';
 import {} from 'react-native';
 
-
 const App = () => {
-
-    return <View />;
+  return <View> ola muno</View>;
 };
 
 export default App;
 
-const style = StyleSheet.create({
-
-
-  
-})
+const style = StyleSheet.create({});
