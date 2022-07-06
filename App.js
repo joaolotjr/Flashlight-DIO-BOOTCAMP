@@ -1,10 +1,18 @@
 import React from 'react';
-import {} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 
 const App = () => {
-  return <View> ola muno</View>;
+  return (
+    <View style={style.container}>
+      <Text> Hello World!!! </Text>
+    </View>
+  );
 };
 
 export default App;
 
-const style = StyleSheet.create({});
+const style = StyleSheet.create({
+  container: {
+    backgroundColor: 'pink',
+  },
+});
