@@ -13,6 +13,19 @@ const App = () => {
     Torch.switchState(toggle);
   }, [toggle]);
 
+  useEffect(() => {
+
+    //Assim que chacoalhar celular, mudara o toggle
+
+    const subscription = RNShake.addListener(() => {
+      setToggle(oldToggle => !oldToggle);
+    });
+
+    //Essa Função vai ser chamada quando o Componente
+    // for desmontado
+    return () => subscription.remove();
+  }, []);
+
   return (
     <View style={toggle ? style.containerLight : style.container}>
       <TouchableOpacity onPress={handleChangeToggle}>
