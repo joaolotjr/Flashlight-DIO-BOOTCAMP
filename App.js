@@ -1,11 +1,17 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {View, StyleSheet, Image, TouchableOpacity} from 'react-native';
-import Imagex from './assets/icons/eco-light-off.png';
+import Torch from 'react-native-torch';
+import RNShake from 'react-native-shake';
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleChangeToggle = () => setToggle(oldToggle => !oldToggle);
+
+  useEffect(() => {
+    // liga flash do Celular
+    Torch.switchState(toggle);
+  }, [toggle]);
 
   return (
     <View style={toggle ? style.containerLight : style.container}>
