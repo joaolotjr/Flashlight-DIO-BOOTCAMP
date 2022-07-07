@@ -1,11 +1,8 @@
 # flashlight DIO BOOTCAMP
 
-Desafio dio: Construindo um app usando o sensor de movimento com React Native
+Conteúdo da atividade prática do Curso de "Construindo um App usando Sensor de Movimento com React Native", que faz parte do Basecamp minstrado pela [Digital Innovation One](https://digitalinnovation.one/).
 
-![image](https://user-images.githubusercontent.com/28990749/165650549-07daaabe-15fa-432e-9146-71bae90e43b0.png)
-
-![image](https://user-images.githubusercontent.com/28990749/165650568-afdd77ea-fa79-488c-ac0b-13c9ecce847c.png)
-
+![image](https://user-images.githubusercontent.com/102186193/177871187-74b1d8a1-78f5-434a-ac90-016fe48d084f.png)
 
 ## Conteúdo 
 
